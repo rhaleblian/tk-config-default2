@@ -49,17 +49,12 @@ primary:
     # these paths will be populated by the associated local storage in Shotgun
     # at setup time.
     mac_path:
-    linux_path:
+    linux_path: /home/ray.haleblian/Developer/py3/primary
     windows_path:
 
     # indicates that this is the default storage root
 #    default: true
 
-gfs:
-  default: true
-  mac_path: /Volumes/jobs
-  windows_path: \\GFS\jobs
-  linux_path: /gfs/jobs
 
 # ------------------------------------------------------------------------------
 # Below is an example of a second storage root. This root would require a local
