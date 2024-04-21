@@ -53,7 +53,13 @@ primary:
     windows_path:
 
     # indicates that this is the default storage root
-    default: true
+#    default: true
+
+gfs:
+  default: true
+  mac_path: /Volumes/jobs
+  windows_path: \\GFS\jobs
+  linux_path: /gfs/jobs
 
 # ------------------------------------------------------------------------------
 # Below is an example of a second storage root. This root would require a local
